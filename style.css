@@ -1,0 +1,333 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    width: 100%;
+    height: 45px;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    gap:40px;
+    position: sticky;
+    top:0px;
+}
+nav a{
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+.list-of-phones{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 113px;
+    gap:40px;
+}
+.product-images{
+    width: 100vw;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.new{
+    color: #6E6E73;
+text-align: center;
+font-family: SF Pro Text;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 147.059% */
+letter-spacing: -0.374px;
+padding-bottom: 10px;
+}
+.price{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+padding-bottom: 10px;
+}
+.highlight{
+    text-align: center;
+font-family: SF Pro Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.008px; /* 108.349% */
+letter-spacing: -0.144px;
+background: linear-gradient(90deg, #2CA2B4 0%, #5598DE 24%, #7F87FF 45%, #F65AAD 76%, #EC3D43 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+padding-bottom: 20px;
+}
+.buy{
+    display: flex;
+width: 61.203px;
+height: 36px;
+padding: 8px 15.6px 8px 16px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border-radius: 980px;
+background: #0071E3;
+border: none;
+color: white;
+}
+.learn{
+    color: #06C;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+text-decoration: none;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    padding-bottom: 50px;
+}
+.product-images-1{
+    width: 100vw;
+    height: 900px;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+.price-1{
+    color: #F5F5F7;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.001px; /* 138.1% */
+letter-spacing: 0.231px;
+padding-bottom: 15px;
+}
+.highlight-1{
+    text-align: center;
+font-family: SF Pro Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.008px; /* 108.349% */
+letter-spacing: -0.144px;
+    background: linear-gradient(180deg, #FFB6FF 0%, #B344FF 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+padding-bottom: 15px;
+}
+.image-1{
+    padding-top: 80px;
+}
+.product-images-2{
+    width: 100vw;
+    height: 830px;
+    background-color: #fff;
+    padding-top: 30px;
+}
+.love{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.love h2{
+    text-align: center;
+font-family: SF Pro Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.008px; /* 108.349% */
+letter-spacing: -0.144px;
+background: linear-gradient(90deg, #1E3791 0%, #2948B1 40%, #3153C6 55%, #385FDA 60%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+padding-bottom: 15px;
+}
+.image{
+    padding-left: 180px;
+}
+.product-images-3{
+    height: 814px;
+    display: flex;
+    justify-content: center;
+    background-image: url("./assests/figure\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+}
+#tour{
+    color: #FFF;
+font-family: SF Pro Display;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 116.667% */
+letter-spacing: 0.216px;
+}
+#mobile{
+    color: #FFF;
+font-family: SF Pro Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.008px; /* 108.349% */
+letter-spacing: -0.144px;
+}
+
+#watch{
+    border-radius: 980px;
+    height: 36px;
+    width: 142px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 400;
+    border: none;
+}
+#mobile-versions{
+    position: relative;
+    top:430px;
+    left: -500px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 70px;
+}
+.tables{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.text{
+    color: #1D1D1F;
+text-align: center;
+font-family: SF Pro Text;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+padding-top: 20px;
+}
+.buttons-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.buy-1{
+    display: flex;
+width: 61.203px;
+height: 36px;
+padding: 8px 15.6px 8px 16px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border-radius: 980px;
+background: #0071E3;
+border: none;
+color: white;
+}
+.learn-1{
+    color: #06C;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+text-decoration: none;
+}
+.image-2{
+    width: 151px;
+height: 257px;
+flex-shrink: 0;
+}
+.image-3{
+    width: 50px;
+height: 14px;
+flex-shrink: 0;
+padding-bottom: 15px
+}
+.image-4{
+    width: 98px;
+height: 20px;
+flex-shrink: 0;
+}
+.new-1{
+    color: #BF4800;
+text-align: center;
+font-family: SF Pro Text;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 133.337% */
+letter-spacing: -0.12px;
+}
+#right-phone{
+    text-align: center;
+    color: #1D1D1F;
+font-family: SF Pro Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.008px; /* 108.349% */
+letter-spacing: -0.144px;
+margin-top: 116px;
+}
+table td{
+    text-align:center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-collapse: collapse;
+}
+table{
+    margin-bottom: 70px;
+}
+.comparision a{
+    color: #06C;
+text-align: center;
+font-family: SF Pro Display;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+text-decoration: none;
+}
+.comparision{
+    display: flex;
+width: 100vw;
+justify-content: center;
+align-items: center;
+gap: 40.547px;
+padding-bottom: 100px;
+}
